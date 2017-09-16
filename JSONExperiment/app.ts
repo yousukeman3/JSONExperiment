@@ -4,5 +4,5 @@ let myRequest = fetch("https://raw.githubusercontent.com/yousukeman3/JSONExperim
 myRequest.then(response => {
     return response.json();
 }).then((json) => {
-    console.log(json.Str);
+    console.log(json.myStr);
 })
